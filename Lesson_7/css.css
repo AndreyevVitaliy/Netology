@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 14px Montserrat, sans-serif;
+    color: #515151;
+    background-color: #ebebeb;
+}
+
+p {
+    line-height: 26px;
+    font: 14px Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #373c3f;
+}
+
+.header-nav {
+    margin: 0;
+    padding: 35px 45px 0 45px;
+    list-style-type: none;
+}
+
+.header-nav li {
+    display: inline-block;
+    padding: 0 30px 35px 0;
+    vertical-align: center;
+}
+
+.header-nav li a {
+    font: 14px Montserrat, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header-nav li a:hover {
+    color: #15b0c3;
+}
+
+.banner {
+    width:100%;
+    padding: 130px 75px;
+    background-color: #15b0c3;
+}
+
+.caption {
+    margin: 0;
+    font: 60px Montserrat, sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.link {
+    width:100%;
+    padding-top: 30px;
+    font-size: 0;
+}
+
+.link_text {
+    display: inline-block;
+    width: 82%;
+    font: 40px Montserrat, sans-serif;
+    color: rgba(255, 255, 255, .6);
+}
+
+.link-nav {
+    float:right;
+    width: 18%;
+    font-size: 42px;
+    color: #ffffff;
+    text-align:right;
+}
+
+.info {
+    font-size: 0;
+    background-color: #27212c;}
+
+.info-text {
+    display: inline-block;
+    margin: 0;
+    width: 800px;
+    padding: 93px 75px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #9787a6;
+}
+
+.info-nav {
+    display: inline-block;
+    width: 224px;
+    padding: 93px 60px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #bc3183;
+}
+
+.gallery {
+    font-size: 0;
+    overflow: hidden;
+}
+
+
+.gallery-item {
+    float: left;
+    width: 33.3333%;
+    height: 297px;
+    line-height: 297px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5b0fa1;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 75px;
+    font-size: 0;
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #088ca5;
+}
+
+.content-item {
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.content div:nth-child(3) {
+    margin-left: 8%;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #27212c;
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
